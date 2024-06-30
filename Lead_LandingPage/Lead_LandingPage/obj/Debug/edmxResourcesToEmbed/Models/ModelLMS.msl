@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BD_LMSModelStoreContainer" CdmEntityContainer="BD_LMSEntities">
+    <EntitySetMapping Name="ASIGNACIONES_LEAD">
+      <EntityTypeMapping TypeName="BD_LMSModel.ASIGNACIONES_LEAD">
+        <MappingFragment StoreEntitySet="ASIGNACIONES_LEAD">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_LEAD" ColumnName="ID_LEAD" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+          <ScalarProperty Name="FECHA_ASIGNACION" ColumnName="FECHA_ASIGNACION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AUDITORIA_LEADS">
+      <EntityTypeMapping TypeName="BD_LMSModel.AUDITORIA_LEADS">
+        <MappingFragment StoreEntitySet="AUDITORIA_LEADS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_LEAD" ColumnName="ID_LEAD" />
+          <ScalarProperty Name="CAMPO_MODIFICADO" ColumnName="CAMPO_MODIFICADO" />
+          <ScalarProperty Name="VALOR_ANTERIOR" ColumnName="VALOR_ANTERIOR" />
+          <ScalarProperty Name="VALOR_NUEVO" ColumnName="VALOR_NUEVO" />
+          <ScalarProperty Name="FECHA_MODIFICACION" ColumnName="FECHA_MODIFICACION" />
+          <ScalarProperty Name="USUARIO_MODIFICACION" ColumnName="USUARIO_MODIFICACION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CITAS">
+      <EntityTypeMapping TypeName="BD_LMSModel.CITAS">
+        <MappingFragment StoreEntitySet="CITAS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_LEAD" ColumnName="ID_LEAD" />
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+          <ScalarProperty Name="FECHA_CITA" ColumnName="FECHA_CITA" />
+          <ScalarProperty Name="DETALLES" ColumnName="DETALLES" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="INTERACCIONES">
+      <EntityTypeMapping TypeName="BD_LMSModel.INTERACCIONES">
+        <MappingFragment StoreEntitySet="INTERACCIONES">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ID_LEAD" ColumnName="ID_LEAD" />
+          <ScalarProperty Name="TIPO_INTERACCION" ColumnName="TIPO_INTERACCION" />
+          <ScalarProperty Name="DETALLE" ColumnName="DETALLE" />
+          <ScalarProperty Name="FECHA_INTERACCION" ColumnName="FECHA_INTERACCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LEADS">
+      <EntityTypeMapping TypeName="BD_LMSModel.LEADS">
+        <MappingFragment StoreEntitySet="LEADS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="TELEFONO" ColumnName="TELEFONO" />
+          <ScalarProperty Name="EMPRESA" ColumnName="EMPRESA" />
+          <ScalarProperty Name="CARGO" ColumnName="CARGO" />
+          <ScalarProperty Name="FUENTE_ENTRADA" ColumnName="FUENTE_ENTRADA" />
+          <ScalarProperty Name="FECHA_CREACION" ColumnName="FECHA_CREACION" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REPORTES">
+      <EntityTypeMapping TypeName="BD_LMSModel.REPORTES">
+        <MappingFragment StoreEntitySet="REPORTES">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="TIPO_REPORTE" ColumnName="TIPO_REPORTE" />
+          <ScalarProperty Name="FECHA_GENERACION" ColumnName="FECHA_GENERACION" />
+          <ScalarProperty Name="CONTENIDO" ColumnName="CONTENIDO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ROLES">
+      <EntityTypeMapping TypeName="BD_LMSModel.ROLES">
+        <MappingFragment StoreEntitySet="ROLES">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USUARIOS">
+      <EntityTypeMapping TypeName="BD_LMSModel.USUARIOS">
+        <MappingFragment StoreEntitySet="USUARIOS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOMBRE_USUARIO" ColumnName="NOMBRE_USUARIO" />
+          <ScalarProperty Name="HASH_CONTRASEÑA" ColumnName="HASH_CONTRASEÑA" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="database_firewall_rules">
+      <EntityTypeMapping TypeName="BD_LMSModel.database_firewall_rules">
+        <MappingFragment StoreEntitySet="database_firewall_rules">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="start_ip_address" ColumnName="start_ip_address" />
+          <ScalarProperty Name="end_ip_address" ColumnName="end_ip_address" />
+          <ScalarProperty Name="create_date" ColumnName="create_date" />
+          <ScalarProperty Name="modify_date" ColumnName="modify_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="USUARIO_ROLES" TypeName="BD_LMSModel.USUARIO_ROLES" StoreEntitySet="USUARIO_ROLES">
+      <EndProperty Name="ROLES">
+        <ScalarProperty Name="ID" ColumnName="ID_ROL" />
+      </EndProperty>
+      <EndProperty Name="USUARIOS">
+        <ScalarProperty Name="ID" ColumnName="ID_USUARIO" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="CalificarLead" FunctionName="BD_LMSModel.Store.CalificarLead" />
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="BD_LMSModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="BD_LMSModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="BD_LMSModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="BD_LMSModel.Store.sp_helpdiagramdefinition" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="BD_LMSModel.Store.sp_helpdiagrams" />
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="BD_LMSModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="BD_LMSModel.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>

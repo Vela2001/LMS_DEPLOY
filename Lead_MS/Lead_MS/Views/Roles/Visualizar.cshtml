@@ -1,0 +1,31 @@
+﻿@model Lead_MS.Models.ROLES
+@{
+    ViewBag.Title = "Visualizar Rol";
+}
+
+<div class="text-center">
+    <h2>Visualizar Rol</h2>
+</div>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active"><a href="@Url.Action("Index", "Roles")">Roles</a></li>
+        <li class="breadcrumb-item active" aria-current="page">@Model.NOMBRE</li>
+    </ol>
+</nav>
+
+<div class="card">
+    <div class="card-header">
+        Información del Rol
+    </div>
+    <div class="card-body">
+        <dl class="list-group">
+            <dt>ID</dt>
+            <dd>@Model.ID</dd>
+            <dt>Nombre</dt>
+            <dd>@Model.NOMBRE</dd>
+            <dt>Descripción</dt>
+            <dd>@Model.DESCRIPCION</dd>
+        </dl>
+    </div>
+</div>

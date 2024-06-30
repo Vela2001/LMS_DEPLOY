@@ -1,0 +1,40 @@
+﻿@model List<Lead_MS.Models.ROLES>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 class="card text-center">
+    Mantenimiento de Roles
+</h2>
+<br />
+<div class="text-start">
+    <a href="@Url.Action("AgregarEditar", "Roles")" class="btn btn-success">Nuevo Rol</a>
+</div>
+<br />
+<br />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th style="width: 50px">Id</th>
+            <th style="width: 150px">Nombre</th>
+            <th style="width: 250px">Descripción</th>
+            <th style="width: 250px">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var rol in Model)
+        {
+            <tr>
+                <td>@rol.ID</td>
+                <td>@rol.NOMBRE</td>
+                <td>@rol.DESCRIPCION</td>
+                <td>
+                    <a href="@Url.Action("Visualizar", "Roles", new { id = rol.ID })" class="btn btn-info">Visualizar</a>
+                    <a href="@Url.Action("AgregarEditar", "Roles", new { id = rol.ID })" class="btn btn-warning">Modificar</a>
+                    <a href="@Url.Action("Eliminar", "Roles", new { id = rol.ID })" class="btn btn-danger" onclick="return confirm('¿Está seguro de eliminar el registro?')">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

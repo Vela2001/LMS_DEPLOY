@@ -1,0 +1,43 @@
+﻿@model Lead_MS.Models.LEADS
+@{
+    ViewBag.Title = "Visualizar";
+}
+
+<div class="text-center">
+    <h2>Visualizar Lead</h2>
+</div>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active"><a href="~/Leads/Index">Leads</a></li>
+        <li class="breadcrumb-item active" aria-current="page">@Model.NOMBRE</li>
+    </ol>
+</nav>
+
+<div class="card">
+    <div class="card-header">
+        Información del Lead
+    </div>
+    <div class="card-body">
+        <dl class="list-group-horizontal">
+            <dt>ID</dt>
+            <dd>@Model.ID</dd>
+            <dt>Nombre</dt>
+            <dd>@Model.NOMBRE</dd>
+            <dt>Email</dt>
+            <dd>@Model.EMAIL</dd>
+            <dt>Teléfono</dt>
+            <dd>@Model.TELEFONO</dd>
+            <dt>Empresa</dt>
+            <dd>@Model.EMPRESA</dd>
+            <dt>Cargo</dt>
+            <dd>@Model.CARGO</dd>
+            <dt>Fuente de Entrada</dt>
+            <dd>@Model.FUENTE_ENTRADA</dd>
+            <dt>Fecha de Creación</dt>
+            <dd>@Model.FECHA_CREACION.ToString("dd/MM/yyyy HH:mm:ss")</dd>
+            <dt>Estado</dt>
+            <dd>@Model.ESTADO</dd>
+        </dl>
+    </div>
+</div>

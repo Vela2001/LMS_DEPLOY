@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BD_LMSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ASIGNACIONES_LEAD">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_LEAD" Type="Int32" Nullable="false" />
+    <Property Name="ID_USUARIO" Type="Int32" Nullable="false" />
+    <Property Name="FECHA_ASIGNACION" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="LEADS" Relationship="Self.FK__ASIGNACIO__ID_LE__17F790F9" FromRole="ASIGNACIONES_LEAD" ToRole="LEADS" />
+    <NavigationProperty Name="USUARIOS" Relationship="Self.FK__ASIGNACIO__ID_US__18EBB532" FromRole="ASIGNACIONES_LEAD" ToRole="USUARIOS" />
+  </EntityType>
+  <EntityType Name="AUDITORIA_LEADS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_LEAD" Type="Int32" Nullable="false" />
+    <Property Name="CAMPO_MODIFICADO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="VALOR_ANTERIOR" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="VALOR_NUEVO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA_MODIFICACION" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="USUARIO_MODIFICACION" Type="Int32" />
+    <NavigationProperty Name="LEADS" Relationship="Self.FK__AUDITORIA__ID_LE__245D67DE" FromRole="AUDITORIA_LEADS" ToRole="LEADS" />
+    <NavigationProperty Name="USUARIOS" Relationship="Self.FK__AUDITORIA__USUAR__25518C17" FromRole="AUDITORIA_LEADS" ToRole="USUARIOS" />
+  </EntityType>
+  <EntityType Name="CITAS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_LEAD" Type="Int32" Nullable="false" />
+    <Property Name="ID_USUARIO" Type="Int32" Nullable="false" />
+    <Property Name="FECHA_CITA" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DETALLES" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="LEADS" Relationship="Self.FK__CITAS__ID_LEAD__1EA48E88" FromRole="CITAS" ToRole="LEADS" />
+    <NavigationProperty Name="USUARIOS" Relationship="Self.FK__CITAS__ID_USUARI__1F98B2C1" FromRole="CITAS" ToRole="USUARIOS" />
+  </EntityType>
+  <EntityType Name="INTERACCIONES">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_LEAD" Type="Int32" Nullable="false" />
+    <Property Name="TIPO_INTERACCION" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DETALLE" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="FECHA_INTERACCION" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="LEADS" Relationship="Self.FK__INTERACCI__ID_LE__1BC821DD" FromRole="INTERACCIONES" ToRole="LEADS" />
+  </EntityType>
+  <EntityType Name="LEADS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRE" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TELEFONO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="EMPRESA" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="CARGO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="FUENTE_ENTRADA" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FECHA_CREACION" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ESTADO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="ASIGNACIONES_LEAD" Relationship="Self.FK__ASIGNACIO__ID_LE__17F790F9" FromRole="LEADS" ToRole="ASIGNACIONES_LEAD" />
+    <NavigationProperty Name="AUDITORIA_LEADS" Relationship="Self.FK__AUDITORIA__ID_LE__245D67DE" FromRole="LEADS" ToRole="AUDITORIA_LEADS" />
+    <NavigationProperty Name="CITAS" Relationship="Self.FK__CITAS__ID_LEAD__1EA48E88" FromRole="LEADS" ToRole="CITAS" />
+    <NavigationProperty Name="INTERACCIONES" Relationship="Self.FK__INTERACCI__ID_LE__1BC821DD" FromRole="LEADS" ToRole="INTERACCIONES" />
+  </EntityType>
+  <EntityType Name="REPORTES">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TIPO_REPORTE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FECHA_GENERACION" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="CONTENIDO" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ROLES">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="USUARIOS" Relationship="Self.USUARIO_ROLES" FromRole="ROLES" ToRole="USUARIOS" />
+  </EntityType>
+  <EntityType Name="USUARIOS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRE_USUARIO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="HASH_CONTRASEÑA" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="ASIGNACIONES_LEAD" Relationship="Self.FK__ASIGNACIO__ID_US__18EBB532" FromRole="USUARIOS" ToRole="ASIGNACIONES_LEAD" />
+    <NavigationProperty Name="AUDITORIA_LEADS" Relationship="Self.FK__AUDITORIA__USUAR__25518C17" FromRole="USUARIOS" ToRole="AUDITORIA_LEADS" />
+    <NavigationProperty Name="CITAS" Relationship="Self.FK__CITAS__ID_USUARI__1F98B2C1" FromRole="USUARIOS" ToRole="CITAS" />
+    <NavigationProperty Name="ROLES" Relationship="Self.USUARIO_ROLES" FromRole="USUARIOS" ToRole="ROLES" />
+  </EntityType>
+  <EntityType Name="database_firewall_rules">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="name" />
+      <PropertyRef Name="start_ip_address" />
+      <PropertyRef Name="end_ip_address" />
+      <PropertyRef Name="create_date" />
+      <PropertyRef Name="modify_date" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="start_ip_address" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="end_ip_address" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="create_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="modify_date" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <Association Name="FK__ASIGNACIO__ID_LE__17F790F9">
+    <End Role="LEADS" Type="Self.LEADS" Multiplicity="1" />
+    <End Role="ASIGNACIONES_LEAD" Type="Self.ASIGNACIONES_LEAD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LEADS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ASIGNACIONES_LEAD">
+        <PropertyRef Name="ID_LEAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ASIGNACIO__ID_US__18EBB532">
+    <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="1" />
+    <End Role="ASIGNACIONES_LEAD" Type="Self.ASIGNACIONES_LEAD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIOS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ASIGNACIONES_LEAD">
+        <PropertyRef Name="ID_USUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__AUDITORIA__ID_LE__245D67DE">
+    <End Role="LEADS" Type="Self.LEADS" Multiplicity="1" />
+    <End Role="AUDITORIA_LEADS" Type="Self.AUDITORIA_LEADS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LEADS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="AUDITORIA_LEADS">
+        <PropertyRef Name="ID_LEAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__AUDITORIA__USUAR__25518C17">
+    <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="0..1" />
+    <End Role="AUDITORIA_LEADS" Type="Self.AUDITORIA_LEADS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIOS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="AUDITORIA_LEADS">
+        <PropertyRef Name="USUARIO_MODIFICACION" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CITAS__ID_LEAD__1EA48E88">
+    <End Role="LEADS" Type="Self.LEADS" Multiplicity="1" />
+    <End Role="CITAS" Type="Self.CITAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LEADS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CITAS">
+        <PropertyRef Name="ID_LEAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CITAS__ID_USUARI__1F98B2C1">
+    <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="1" />
+    <End Role="CITAS" Type="Self.CITAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIOS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CITAS">
+        <PropertyRef Name="ID_USUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__INTERACCI__ID_LE__1BC821DD">
+    <End Role="LEADS" Type="Self.LEADS" Multiplicity="1" />
+    <End Role="INTERACCIONES" Type="Self.INTERACCIONES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LEADS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="INTERACCIONES">
+        <PropertyRef Name="ID_LEAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="USUARIO_ROLES">
+    <End Role="ROLES" Type="Self.ROLES" Multiplicity="*" />
+    <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="BD_LMSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ASIGNACIONES_LEAD" EntityType="Self.ASIGNACIONES_LEAD" />
+    <EntitySet Name="AUDITORIA_LEADS" EntityType="Self.AUDITORIA_LEADS" />
+    <EntitySet Name="CITAS" EntityType="Self.CITAS" />
+    <EntitySet Name="INTERACCIONES" EntityType="Self.INTERACCIONES" />
+    <EntitySet Name="LEADS" EntityType="Self.LEADS" />
+    <EntitySet Name="REPORTES" EntityType="Self.REPORTES" />
+    <EntitySet Name="ROLES" EntityType="Self.ROLES" />
+    <EntitySet Name="USUARIOS" EntityType="Self.USUARIOS" />
+    <EntitySet Name="database_firewall_rules" EntityType="Self.database_firewall_rules" />
+    <AssociationSet Name="FK__ASIGNACIO__ID_LE__17F790F9" Association="Self.FK__ASIGNACIO__ID_LE__17F790F9">
+      <End Role="LEADS" EntitySet="LEADS" />
+      <End Role="ASIGNACIONES_LEAD" EntitySet="ASIGNACIONES_LEAD" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ASIGNACIO__ID_US__18EBB532" Association="Self.FK__ASIGNACIO__ID_US__18EBB532">
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+      <End Role="ASIGNACIONES_LEAD" EntitySet="ASIGNACIONES_LEAD" />
+    </AssociationSet>
+    <AssociationSet Name="FK__AUDITORIA__ID_LE__245D67DE" Association="Self.FK__AUDITORIA__ID_LE__245D67DE">
+      <End Role="LEADS" EntitySet="LEADS" />
+      <End Role="AUDITORIA_LEADS" EntitySet="AUDITORIA_LEADS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__AUDITORIA__USUAR__25518C17" Association="Self.FK__AUDITORIA__USUAR__25518C17">
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+      <End Role="AUDITORIA_LEADS" EntitySet="AUDITORIA_LEADS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CITAS__ID_LEAD__1EA48E88" Association="Self.FK__CITAS__ID_LEAD__1EA48E88">
+      <End Role="LEADS" EntitySet="LEADS" />
+      <End Role="CITAS" EntitySet="CITAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CITAS__ID_USUARI__1F98B2C1" Association="Self.FK__CITAS__ID_USUARI__1F98B2C1">
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+      <End Role="CITAS" EntitySet="CITAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__INTERACCI__ID_LE__1BC821DD" Association="Self.FK__INTERACCI__ID_LE__1BC821DD">
+      <End Role="LEADS" EntitySet="LEADS" />
+      <End Role="INTERACCIONES" EntitySet="INTERACCIONES" />
+    </AssociationSet>
+    <AssociationSet Name="USUARIO_ROLES" Association="Self.USUARIO_ROLES">
+      <End Role="ROLES" EntitySet="ROLES" />
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+    </AssociationSet>
+    <FunctionImport Name="CalificarLead">
+      <Parameter Name="lead_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+</Schema>

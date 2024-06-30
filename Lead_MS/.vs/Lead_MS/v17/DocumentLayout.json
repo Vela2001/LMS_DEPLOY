@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6092803E-E932-4174-9C3D-36547DC662BF}|Lead_MS\\Lead_MS.csproj|c:\\carpeta d\\upt\\9no ciclo\\construccion de software 1\\implementacion del codigo\\lead_ms\\lead_ms\\models\\sessionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092803E-E932-4174-9C3D-36547DC662BF}|Lead_MS\\Lead_MS.csproj|solutionrelative:lead_ms\\models\\sessionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092803E-E932-4174-9C3D-36547DC662BF}|Lead_MS\\Lead_MS.csproj|C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\lead_ms\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092803E-E932-4174-9C3D-36547DC662BF}|Lead_MS\\Lead_MS.csproj|solutionrelative:lead_ms\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092803E-E932-4174-9C3D-36547DC662BF}|Lead_MS\\Lead_MS.csproj|c:\\carpeta d\\upt\\9no ciclo\\construccion de software 1\\implementacion del codigo\\lead_ms\\lead_ms\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6092803E-E932-4174-9C3D-36547DC662BF}|Lead_MS\\Lead_MS.csproj|solutionrelative:lead_ms\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092803E-E932-4174-9C3D-36547DC662BF}|Lead_MS\\Lead_MS.csproj|C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\lead_ms\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092803E-E932-4174-9C3D-36547DC662BF}|Lead_MS\\Lead_MS.csproj|solutionrelative:lead_ms\\models\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092803E-E932-4174-9C3D-36547DC662BF}|Lead_MS\\Lead_MS.csproj|C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\lead_ms\\views\\shared\\layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6092803E-E932-4174-9C3D-36547DC662BF}|Lead_MS\\Lead_MS.csproj|solutionrelative:lead_ms\\views\\shared\\layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092803E-E932-4174-9C3D-36547DC662BF}|Lead_MS\\Lead_MS.csproj|C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\lead_ms\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092803E-E932-4174-9C3D-36547DC662BF}|Lead_MS\\Lead_MS.csproj|solutionrelative:lead_ms\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6092803E-E932-4174-9C3D-36547DC662BF}|Lead_MS\\Lead_MS.csproj|c:\\carpeta d\\upt\\9no ciclo\\construccion de software 1\\implementacion del codigo\\lead_ms\\lead_ms\\filters\\adminfilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6092803E-E932-4174-9C3D-36547DC662BF}|Lead_MS\\Lead_MS.csproj|solutionrelative:lead_ms\\filters\\adminfilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SessionHelper.cs",
+              "DocumentMoniker": "C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\Lead_MS\\Models\\SessionHelper.cs",
+              "RelativeDocumentMoniker": "Lead_MS\\Models\\SessionHelper.cs",
+              "ToolTip": "C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\Lead_MS\\Models\\SessionHelper.cs",
+              "RelativeToolTip": "Lead_MS\\Models\\SessionHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T19:22:26.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\Lead_MS\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Lead_MS\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\Lead_MS\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Lead_MS\\Controllers\\UsuariosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T07:34:48.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminFilters.cs",
+              "DocumentMoniker": "C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\Lead_MS\\Filters\\AdminFilters.cs",
+              "RelativeDocumentMoniker": "Lead_MS\\Filters\\AdminFilters.cs",
+              "ToolTip": "C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\Lead_MS\\Filters\\AdminFilters.cs",
+              "RelativeToolTip": "Lead_MS\\Filters\\AdminFilters.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T19:08:12.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\Lead_MS\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lead_MS\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\Lead_MS\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Lead_MS\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwCIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-30T07:59:49.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "USUARIOS.cs",
+              "DocumentMoniker": "C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\Lead_MS\\Models\\USUARIOS.cs",
+              "RelativeDocumentMoniker": "Lead_MS\\Models\\USUARIOS.cs",
+              "ToolTip": "C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\Lead_MS\\Models\\USUARIOS.cs",
+              "RelativeToolTip": "Lead_MS\\Models\\USUARIOS.cs",
+              "ViewState": "AQIAALMAAAAAAAAAAAAAANEAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T06:47:25.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Layout.cshtml",
+              "DocumentMoniker": "C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\Lead_MS\\Views\\Shared\\Layout.cshtml",
+              "RelativeDocumentMoniker": "Lead_MS\\Views\\Shared\\Layout.cshtml",
+              "ToolTip": "C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\Lead_MS\\Views\\Shared\\Layout.cshtml",
+              "RelativeToolTip": "Lead_MS\\Views\\Shared\\Layout.cshtml",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAAABYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T09:18:36.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\Lead_MS\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Lead_MS\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Carpeta D\\UPT\\9no ciclo\\Construccion de Software 1\\Implementacion del Codigo\\Lead_MS\\Lead_MS\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Lead_MS\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T08:03:17.862Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

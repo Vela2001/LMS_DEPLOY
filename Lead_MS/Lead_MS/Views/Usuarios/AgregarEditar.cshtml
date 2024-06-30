@@ -1,0 +1,79 @@
+﻿@model Lead_MS.Models.USUARIOS
+@{
+    ViewBag.Title = "AgregarEditar";
+    var roles = new SelectList(ViewBag.Roles as List<Lead_MS.Models.ROLES>, "ID", "NOMBRE", Model.ROL_ID);
+}
+
+<div class="text-center">
+    <h2>Agregar/Editar Usuario</h2>
+</div>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active"><a href="~/Usuarios/Index">Usuarios</a></li>
+        <li class="breadcrumb-item active" aria-current="page">@(Model.ID > 0 ? Model.NOMBRE_USUARIO : "Nuevo Registro")</li>
+    </ol>
+</nav>
+
+<div class="card">
+    <div class="card-header">
+        Información del Usuario
+    </div>
+    <div class="card-body">
+        @using (Html.BeginForm("Guardar", "Usuarios", FormMethod.Post))
+        {
+            @Html.HiddenFor(x => x.ID)
+            <div class="form-group">
+                @Html.LabelFor(x => x.NOMBRE_USUARIO)
+                @Html.TextBoxFor(x => x.NOMBRE_USUARIO, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.NOMBRE_USUARIO, null, new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(x => x.HASH_CONTRASEÑA)
+                @Html.PasswordFor(x => x.HASH_CONTRASEÑA, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.HASH_CONTRASEÑA, null, new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @Html.Label("Confirmar Contraseña")
+                <input type="password" class="form-control" id="ConfirmarContraseña" name="ConfirmarContraseña" />
+                <span class="text-danger" id="ContraseñaError" style="display:none;">Las contraseñas no coinciden.</span>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(x => x.EMAIL)
+                @Html.TextBoxFor(x => x.EMAIL, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.EMAIL, null, new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(x => x.TELEFONO)
+                @Html.TextBoxFor(x => x.TELEFONO, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.TELEFONO, null, new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(x => x.DESCRIPCION)
+                @Html.TextAreaFor(x => x.DESCRIPCION, new { @class = "form-control", rows = 3 })
+                @Html.ValidationMessageFor(x => x.DESCRIPCION, null, new { @class = "text-danger" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(x => x.ROL_ID, "Rol")
+                @Html.DropDownListFor(x => x.ROL_ID, roles, "-Seleccione un Rol-", new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.ROL_ID, null, new { @class = "text-danger" })
+            </div>
+            <br />
+            <div class="text-end">
+                <button type="submit" class="btn btn-primary" onclick="return validarContraseña();">Grabar</button>
+                <a href="~/Usuarios" class="btn btn-danger">Cancelar</a>
+            </div>
+        }
+    </div>
+</div>
+
+<script type="text/javascript">
+    function validarContraseña() {
+        var contraseña = document.getElementById("HASH_CONTRASEÑA").value;
+        var confirmarContraseña = document.getElementById("ConfirmarContraseña").value;
+        if (contraseña !== confirmarContraseña) {
+            document.getElementById("ContraseñaError").style.display = "block";
+            return false;
+        }
+        return true;
+    }
+</script>

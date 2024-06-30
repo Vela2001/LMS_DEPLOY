@@ -1,0 +1,342 @@
+﻿//METODOS
+METODOS usuario:
+
+//Implementacion de metodos
+
+        // METODO LISTAR
+        //public List<USUARIOS> Listar()
+        //{
+        //    var usuarios = new List<USUARIOS>();
+        //    try
+        //    {
+        //        using (var db = new ModeloLMS())
+        //        {
+        //            usuarios = db.USUARIOS.ToList();
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        throw new Exception("Error al listar los usuarios", ex);
+        //    }
+
+        //    return usuarios;
+        //}
+        // METODO LISTAR CON ROLES
+        public List<USUARIOS> Listar()
+        {
+            var usuarios = new List<USUARIOS>();
+            try
+            {
+                using (var db = new ModeloLMS())
+                {
+                    usuarios = db.USUARIOS.Include(u => u.ROLES).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al listar los usuarios con roles", ex);
+            }
+
+            return usuarios;
+        }
+
+        // METODO OBTENER
+        public USUARIOS Obtener(int id)
+        {
+            USUARIOS usuario = null;
+            try
+            {
+                using (var db = new ModeloLMS())
+                {
+                    usuario = db.USUARIOS.Include(u => u.ROLES).SingleOrDefault(x => x.ID == id);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener el usuario", ex);
+            }
+
+            return usuario;
+        }
+
+
+        // METODO BUSCAR
+        public List<USUARIOS> Buscar(string criterio)
+        {
+            var usuarios = new List<USUARIOS>();
+            try
+            {
+                using (var db = new ModeloLMS())
+                {
+                    usuarios = db.USUARIOS
+                        .Where(x => x.NOMBRE_USUARIO.Contains(criterio) || x.EMAIL.Contains(criterio))
+                        .ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al buscar usuarios", ex);
+            }
+
+            return usuarios;
+        }
+        // METODO BUSCAR CON ROLES
+        public List<USUARIOS> BuscarConRoles(string criterio)
+        {
+            var usuarios = new List<USUARIOS>();
+            try
+            {
+                using (var db = new ModeloLMS())
+                {
+                    usuarios = db.USUARIOS
+                        .Include(u => u.ROLES)
+                        .Where(x => x.NOMBRE_USUARIO.Contains(criterio) || x.EMAIL.Contains(criterio))
+                        .ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al buscar usuarios con roles", ex);
+            }
+
+            return usuarios;
+        }
+
+        // METODO GUARDAR
+        public void Guardar()
+        {
+            try
+            {
+                using (var db = new ModeloLMS())
+                {
+                    if (this.ID > 0)
+                    {
+                        db.Entry(this).State = EntityState.Modified;
+                    }
+                    else
+                    {
+                        db.USUARIOS.Add(this);
+                    }
+                    db.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al guardar el usuario", ex);
+            }
+        }
+
+        // METODO ELIMINAR
+        public void Eliminar()
+        {
+            try
+            {
+                using (var db = new ModeloLMS())
+                {
+                    db.Entry(this).State = EntityState.Deleted;
+                    db.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al eliminar el usuario", ex);
+            }
+        }
+
+        // METODO VALIDAR LOGIN
+        public ResponseModel ValidarLogin(string nombreUsuario, string contraseña)
+        {
+            var rm = new ResponseModel();
+            try
+            {
+                using (var db = new ModeloLMS())
+                {
+                    var hashContraseña = HashHelper.MD5(contraseña);
+
+                    var usuario = db.USUARIOS
+                        .Where(x => x.NOMBRE_USUARIO == nombreUsuario && x.HASH_CONTRASEÑA == hashContraseña)
+                        .SingleOrDefault();
+
+                    if (usuario != null)
+                    {
+                        SessionHelper.AddUserToSession(usuario.ID.ToString());
+                        rm.SetResponse(true);
+                    }
+                    else
+                    {
+                        rm.SetResponse(false, "Usuario o contraseña incorrectos");
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al validar el login", ex);
+            }
+
+            return rm;
+        }
+
+        // METODO GUARDAR PERFIL
+        //public ResponseModel GuardarPerfil(HttpPostedFileBase foto)
+        //{
+        //    var rm = new ResponseModel();
+        //    try
+        //    {
+        //        using (var db = new ModeloLMS())
+        //        {
+        //            db.Configuration.ValidateOnSaveEnabled = false;
+        //            var usuario = db.Entry(this);
+        //            usuario.State = EntityState.Modified;
+
+        //            if (foto != null)
+        //            {
+        //                string extension = Path.GetExtension(foto.FileName).ToLower();
+        //                int size = 1024 * 1024 * 5;
+        //                var filtro = new[] { ".jpg", ".png", ".jpeg", ".gif" };
+
+        //                if (filtro.Contains(extension) && (foto.ContentLength <= size))
+        //                {
+        //                    string archivo = Path.GetFileName(foto.FileName);
+        //                    foto.SaveAs(HttpContext.Current.Server.MapPath("~/Uploads/" + archivo));
+        //                    this.AVATAR = archivo;
+        //                }
+        //            }
+        //            else
+        //            {
+        //                usuario.Property(x => x.AVATAR).IsModified = false;
+        //            }
+
+        //            db.SaveChanges();
+        //            rm.SetResponse(true);
+        //        }
+        //    }
+        //    catch (DbEntityValidationException ex)
+        //    {
+        //        throw new Exception("Error de validación de entidad", ex);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        throw new Exception("Error al guardar el perfil", ex);
+        //    }
+
+        //    return rm;
+        //}
+
+
+        //METODOS
+        public List<LEADS> Listar()
+        {
+            var query = new List<LEADS>();
+            try
+            {
+                using (var db = new ModeloLMS())
+                {
+                    query = db.LEADS.ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            return query;
+
+        }
+        //Metodo obtener
+        public LEADS Obtener(int id)
+        {
+            var query = new LEADS();
+            try
+            {
+                using (var db = new ModeloLMS())
+                {
+                    query = db.LEADS.Where(x => x.ID == id).SingleOrDefault();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            return query;
+        }
+
+        //metodo buscar
+        public List<LEADS> Buscar(string Buscar)
+        {
+            var query = new List<LEADS>();
+            try
+            {
+                using (var db = new ModeloLMS())
+                {
+                    query = db.LEADS.Where(x => x.ID.ToString() == (Buscar) || x.NOMBRE.Contains(Buscar)).ToList();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            return query;
+
+        }
+        //metodo guardar
+        public void Guardar()
+        {
+            try
+            {
+                using (var db = new ModeloLMS())
+                {
+                    if (this.ID > 0) //por existe en la bd
+                    {
+                        db.Entry(this).State = EntityState.Modified;
+                    }
+                    else //=0 no existe
+                    //nuevo objeto agregar
+                    {
+                        db.Entry(this).State = EntityState.Added;
+                    }
+                    db.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+        public void GuardarLP()
+        {
+            try
+            {
+                using (var db = new ModeloLMS())
+                {
+                    if (this.ID > 0) //por existe en la bd
+                    {
+                        db.Entry(this).State = EntityState.Modified;
+                    }
+                    else //=0 no existe
+                    //nuevo objeto agregar
+                    {
+                        db.Entry(this).State = EntityState.Added;
+                    }
+                    db.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }
+        //metodo eliminar
+        public void Eliminar()
+        {
+            try
+            {
+                using (var db = new ModeloLMS())
+                {
+                    db.Entry(this).State = EntityState.Deleted;
+                    db.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+        }

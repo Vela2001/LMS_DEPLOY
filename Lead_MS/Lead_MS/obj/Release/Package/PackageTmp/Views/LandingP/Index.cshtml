@@ -1,0 +1,120 @@
+﻿@{
+    ViewData["Title"] = "Landing Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Bienvenido a Nuestra Página</h1>
+            <p class="lead">Esta es una landing page simple creada con Bootstrap y ASP.NET</p>
+        </div>
+    </header>
+
+    <!-- Slider -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="~/images/imagen1.jpg" alt="Primera imagen">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="~/images/imagen2.jpg" alt="Segunda imagen">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="~/images/imagen3.jpg" alt="Tercera imagen">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+
+    <!-- Sección 1 -->
+    <section class="py-5">
+        <div class="container">
+            <div class="mb-4">
+                <h2>Característica 1</h2>
+                <p>Descripción de la característica 1.</p>
+            </div>
+            <div class="mb-4">
+                <h2>Característica 2</h2>
+                <p>Descripción de la característica 2.</p>
+            </div>
+            <div class="mb-4">
+                <h2>Característica 3</h2>
+                <p>Descripción de la característica 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección 2 -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="mb-4">
+                <h2>Sección 1</h2>
+                <p>Descripción de la sección 1.</p>
+            </div>
+            <div class="mb-4">
+                <h2>Sección 2</h2>
+                <p>Descripción de la sección 2.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Registro -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center">Regístrate</h2>
+            <form class="mt-4">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputName">Nombre</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail">Correo electrónico</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Tu correo electrónico">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword">Contraseña</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputConfirmPassword">Confirmar Contraseña</label>
+                        <input type="password" class="form-control" id="inputConfirmPassword" placeholder="Confirmar Contraseña">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Registrar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p class="mb-0">© 2024 Tu Compañía. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

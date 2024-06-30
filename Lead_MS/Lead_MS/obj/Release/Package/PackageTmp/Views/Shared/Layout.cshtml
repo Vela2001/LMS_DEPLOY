@@ -1,0 +1,109 @@
+﻿@using System.Web.Optimization
+@{
+    Layout = null;
+    string controlador = ViewContext.RouteData.Values["controller"].ToString().ToLower();
+
+    Lead_MS.Models.USUARIOS usuario = new Lead_MS.Models.USUARIOS().Obtener(Lead_MS.Models.SessionHelper.GetUser());
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Lead Management A & R</title>
+    <!--Bootstrap-->
+    <link href="~/Source/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Source/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- jQuery -->
+    <script src="~/Source/js/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    @if (controlador != "login")
+    {
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Menu Pincipal</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav me-auto mb-0 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Principal</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Mantenimiento
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="/Usuarios/Index">Usuarios</a></li>
+                                    <li><a class="dropdown-item" href="/Categorias/Index">Categorias</a></li>
+                                    <li><a class="dropdown-item" href="/Productos/Index">Productos</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Consultas
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Usuarios</a></li>
+                                    <li><a class="dropdown-item" href="#">Categorias</a></li>
+                                    <li><a class="dropdown-item" href="#">Productos</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Reportes
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Usuarios por nivel</a></li>
+                                    <li><a class="dropdown-item" href="#">Categorias</a></li>
+                                    <li><a class="dropdown-item" href="#">Productos mas vendidos</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        @*<ul class="navbar-nav me-0 mb-0 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img src="~/Uploads/@usuario.AVATAR" width="40" height="40" />
+                                    <b>Hola: </b> @usuario.EMPLEADO.NOMBRE, @usuario.EMPLEADO.APELLIDO<span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="~/Perfil/index">Perfil de Usuario</a></li>
+                                    <li><a class="dropdown-item" href="~/Login/logout">Cerrar Sesión</a></li>
+                                </ul>
+                            </li>
+                        </ul>*@
+                    </div>
+                </div>
+            </nav>
+        </div>
+    }
+
+    <div class="container">
+        <h1>Lead Management A & R</h1>
+        @RenderBody()
+    </div>
+    <!--Boostrap-->
+    <script src="~/Source/js/bootstrap.min.js"></script>
+    <script src="~/Source/js/bootstrap.bundle.min.js"></script>
+    <!--DataTables-->
+    <script src="~/Source/Datatables/datatables.min.js"></script>
+    <script src="~/Source/Datatables/DataTables-2.0.0/js/dataTables.js"></script>
+    <!-- jQuery -->
+    <script src="~/Source/js/jquery-3.7.1.min.js"></script>
+    <script src="~/Source/js/jquery.form.js"></script>
+    <script src="~/Source/js/jquery.validate.min.js"></script>
+    <script src="~/Source/js/jquery.validate.unobtrusive.min.js"></script>
+    <!--login-->
+    <script src="~/Source/js/ini.js"></script>
+    <script src="~/Source/js/jquery.validate.min.js"></script>
+    <script src="~/Source/js/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Source/js/bootstrap.min.js"></script>
+    <script src="~/Source/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

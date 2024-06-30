@@ -1,0 +1,492 @@
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\Lead_LandingPage.dll.config
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\Lead_LandingPage.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\Lead_LandingPage.pdb
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csc.exe
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csc.exe.config
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csc.rsp
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csi.exe
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csi.exe.config
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csi.rsp
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.AppContext.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Collections.Immutable.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Console.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Globalization.Calendars.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.Compression.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.FileSystem.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Net.Http.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Net.Sockets.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Reflection.Metadata.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.ValueTuple.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.XPath.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\vbc.exe
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\vbc.exe.config
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\vbc.rsp
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\VBCSCompiler.exe
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\roslyn\VBCSCompiler.exe.config
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.SqlServer.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\Microsoft.Web.Infrastructure.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Helpers.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Mvc.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Razor.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Deployment.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Razor.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.xml
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.SqlServer.xml
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Razor.xml
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.xml
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Deployment.xml
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Razor.xml
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Helpers.xml
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Mvc.xml
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Razor.resources.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Webpages.resources.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Helpers.resources.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Mvc.resources.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.csproj.AssemblyReference.cache
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.csproj.CoreCompileInputs.cache
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_Lan.384ED1E7.Up2Date
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.dll
+C:\Carpeta D\UPT\WEB 2\Proyectos\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.pdb
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\Lead_LandingPage.dll.config
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\Lead_LandingPage.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\Lead_LandingPage.pdb
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csc.exe
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csc.exe.config
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csc.rsp
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csi.exe
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csi.exe.config
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csi.rsp
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.AppContext.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Collections.Immutable.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Console.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Globalization.Calendars.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.Compression.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.FileSystem.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Net.Http.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Net.Sockets.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Reflection.Metadata.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.ValueTuple.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.XPath.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\vbc.exe
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\vbc.exe.config
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\vbc.rsp
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\VBCSCompiler.exe
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\roslyn\VBCSCompiler.exe.config
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.SqlServer.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\Microsoft.Web.Infrastructure.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Helpers.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Mvc.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Razor.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Deployment.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Razor.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.xml
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.SqlServer.xml
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Razor.xml
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.xml
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Deployment.xml
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Razor.xml
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Helpers.xml
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Mvc.xml
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Razor.resources.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Webpages.resources.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Helpers.resources.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Mvc.resources.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.csproj.AssemblyReference.cache
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.csproj.CoreCompileInputs.cache
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_Lan.384ED1E7.Up2Date
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.dll
+C:\Carpeta D\UPT\9no ciclo\Construccion de Software 1\Implementacion del Codigo\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.pdb
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Lead_LandingPage.dll.config
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Lead_LandingPage.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Lead_LandingPage.pdb
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csc.exe
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csc.exe.config
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csc.rsp
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csi.exe
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csi.exe.config
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csi.rsp
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.AppContext.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Collections.Immutable.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Console.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Globalization.Calendars.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.Compression.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.FileSystem.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Net.Http.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Net.Sockets.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Reflection.Metadata.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.ValueTuple.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.XPath.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\vbc.exe
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\vbc.exe.config
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\vbc.rsp
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\VBCSCompiler.exe
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\VBCSCompiler.exe.config
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.SqlServer.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Microsoft.Web.Infrastructure.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Helpers.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Mvc.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Razor.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Deployment.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Razor.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.xml
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.SqlServer.xml
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Razor.xml
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.xml
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Deployment.xml
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Razor.xml
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Helpers.xml
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Mvc.xml
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Razor.resources.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Webpages.resources.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Helpers.resources.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Mvc.resources.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.csproj.AssemblyReference.cache
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.csproj.CoreCompileInputs.cache
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.csproj.CopyComplete
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.dll
+C:\Documentos 2024\UPT\Proyecto CS1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.pdb
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Lead_LandingPage.dll.config
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Lead_LandingPage.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Lead_LandingPage.pdb
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csc.exe
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csc.exe.config
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csc.rsp
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csi.exe
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csi.exe.config
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csi.rsp
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.Managed.Core.targets
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.AppContext.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Collections.Immutable.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Console.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Globalization.Calendars.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.Compression.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.FileSystem.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Net.Http.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Net.Sockets.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Reflection.Metadata.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.ValueTuple.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.XmlDocument.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.XPath.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\vbc.exe
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\vbc.exe.config
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\vbc.rsp
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\VBCSCompiler.exe
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\VBCSCompiler.exe.config
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.SqlServer.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Microsoft.Web.Infrastructure.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Helpers.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Mvc.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Razor.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Deployment.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Razor.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.xml
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.SqlServer.xml
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Razor.xml
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.xml
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Deployment.xml
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Razor.xml
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Helpers.xml
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Mvc.xml
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Razor.resources.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Webpages.resources.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Helpers.resources.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Mvc.resources.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.csproj.AssemblyReference.cache
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.csproj.CoreCompileInputs.cache
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.dll
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.pdb
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Lead_LandingPage.dll.config
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Lead_LandingPage.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Lead_LandingPage.pdb
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csc.exe
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csc.exe.config
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csc.rsp
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csi.exe
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csi.exe.config
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csi.rsp
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.Managed.Core.targets
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.AppContext.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Collections.Immutable.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Console.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Globalization.Calendars.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.Compression.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.FileSystem.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Net.Http.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Net.Sockets.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Reflection.Metadata.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.ValueTuple.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.XmlDocument.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.XPath.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\vbc.exe
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\vbc.exe.config
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\vbc.rsp
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\VBCSCompiler.exe
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\VBCSCompiler.exe.config
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.SqlServer.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Microsoft.Web.Infrastructure.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Helpers.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Mvc.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Razor.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Deployment.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Razor.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.xml
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.SqlServer.xml
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Razor.xml
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.xml
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Deployment.xml
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Razor.xml
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Helpers.xml
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Mvc.xml
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Razor.resources.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Webpages.resources.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Helpers.resources.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Mvc.resources.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.csproj.AssemblyReference.cache
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.csproj.CoreCompileInputs.cache
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.csproj.CopyComplete
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.dll
+C:\web2\avvcs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.pdb
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Lead_LandingPage.dll.config
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Lead_LandingPage.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Lead_LandingPage.pdb
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csc.exe
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csc.exe.config
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csc.rsp
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csi.exe
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csi.exe.config
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\csi.rsp
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.Managed.Core.targets
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.AppContext.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Collections.Immutable.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Console.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Globalization.Calendars.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.Compression.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.FileSystem.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Net.Http.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Net.Sockets.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Reflection.Metadata.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.ValueTuple.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.XmlDocument.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.XPath.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\vbc.exe
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\vbc.exe.config
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\vbc.rsp
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\VBCSCompiler.exe
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\roslyn\VBCSCompiler.exe.config
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.SqlServer.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Microsoft.Web.Infrastructure.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Helpers.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Mvc.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Razor.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Deployment.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Razor.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.xml
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\EntityFramework.SqlServer.xml
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Razor.xml
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.xml
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Deployment.xml
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Webpages.Razor.xml
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Helpers.xml
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\System.Web.Mvc.xml
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Razor.resources.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Webpages.resources.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Helpers.resources.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\bin\es\System.Web.Mvc.resources.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.csproj.AssemblyReference.cache
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.csproj.CoreCompileInputs.cache
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.csproj.CopyComplete
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.dll
+C:\lms\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.pdb
+C:\cs1\implementacion-de-codigo-g01_vela_delacruz\Lead_LandingPage\Lead_LandingPage\obj\Debug\Lead_LandingPage.csproj.CopyComplete

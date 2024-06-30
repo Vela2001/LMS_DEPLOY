@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BD_LMSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ASIGNACIONES_LEAD">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_LEAD" Type="int" Nullable="false" />
+    <Property Name="ID_USUARIO" Type="int" Nullable="false" />
+    <Property Name="FECHA_ASIGNACION" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AUDITORIA_LEADS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_LEAD" Type="int" Nullable="false" />
+    <Property Name="CAMPO_MODIFICADO" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="VALOR_ANTERIOR" Type="varchar" MaxLength="255" />
+    <Property Name="VALOR_NUEVO" Type="varchar" MaxLength="255" />
+    <Property Name="FECHA_MODIFICACION" Type="datetime" Nullable="false" />
+    <Property Name="USUARIO_MODIFICACION" Type="int" />
+  </EntityType>
+  <EntityType Name="CITAS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_LEAD" Type="int" Nullable="false" />
+    <Property Name="ID_USUARIO" Type="int" Nullable="false" />
+    <Property Name="FECHA_CITA" Type="datetime" Nullable="false" />
+    <Property Name="DETALLES" Type="text" />
+  </EntityType>
+  <EntityType Name="INTERACCIONES">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ID_LEAD" Type="int" Nullable="false" />
+    <Property Name="TIPO_INTERACCION" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DETALLE" Type="text" />
+    <Property Name="FECHA_INTERACCION" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LEADS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="EMAIL" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="TELEFONO" Type="varchar" MaxLength="50" />
+    <Property Name="EMPRESA" Type="varchar" MaxLength="255" />
+    <Property Name="CARGO" Type="varchar" MaxLength="255" />
+    <Property Name="FUENTE_ENTRADA" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="FECHA_CREACION" Type="datetime" Nullable="false" />
+    <Property Name="ESTADO" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="REPORTES">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TIPO_REPORTE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FECHA_GENERACION" Type="datetime" Nullable="false" />
+    <Property Name="CONTENIDO" Type="text" />
+  </EntityType>
+  <EntityType Name="ROLES">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="USUARIO_ROLES">
+    <Key>
+      <PropertyRef Name="ID_USUARIO" />
+      <PropertyRef Name="ID_ROL" />
+    </Key>
+    <Property Name="ID_USUARIO" Type="int" Nullable="false" />
+    <Property Name="ID_ROL" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="USUARIOS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NOMBRE_USUARIO" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="HASH_CONTRASEÑA" Type="varchar" MaxLength="255" Nullable="false" />
+    <Property Name="EMAIL" Type="varchar" MaxLength="255" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'BD_LMS.sys.database_firewall_rules' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="database_firewall_rules">
+    <Key>
+      <PropertyRef Name="id" />
+      <PropertyRef Name="name" />
+      <PropertyRef Name="start_ip_address" />
+      <PropertyRef Name="end_ip_address" />
+      <PropertyRef Name="create_date" />
+      <PropertyRef Name="modify_date" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="start_ip_address" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="end_ip_address" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="create_date" Type="datetime" Nullable="false" />
+    <Property Name="modify_date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__ASIGNACIO__ID_LE__17F790F9">
+    <End Role="LEADS" Type="Self.LEADS" Multiplicity="1" />
+    <End Role="ASIGNACIONES_LEAD" Type="Self.ASIGNACIONES_LEAD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LEADS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ASIGNACIONES_LEAD">
+        <PropertyRef Name="ID_LEAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ASIGNACIO__ID_US__18EBB532">
+    <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="1" />
+    <End Role="ASIGNACIONES_LEAD" Type="Self.ASIGNACIONES_LEAD" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIOS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ASIGNACIONES_LEAD">
+        <PropertyRef Name="ID_USUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__AUDITORIA__ID_LE__245D67DE">
+    <End Role="LEADS" Type="Self.LEADS" Multiplicity="1" />
+    <End Role="AUDITORIA_LEADS" Type="Self.AUDITORIA_LEADS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LEADS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="AUDITORIA_LEADS">
+        <PropertyRef Name="ID_LEAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__AUDITORIA__USUAR__25518C17">
+    <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="0..1" />
+    <End Role="AUDITORIA_LEADS" Type="Self.AUDITORIA_LEADS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIOS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="AUDITORIA_LEADS">
+        <PropertyRef Name="USUARIO_MODIFICACION" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CITAS__ID_LEAD__1EA48E88">
+    <End Role="LEADS" Type="Self.LEADS" Multiplicity="1" />
+    <End Role="CITAS" Type="Self.CITAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LEADS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CITAS">
+        <PropertyRef Name="ID_LEAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__CITAS__ID_USUARI__1F98B2C1">
+    <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="1" />
+    <End Role="CITAS" Type="Self.CITAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIOS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CITAS">
+        <PropertyRef Name="ID_USUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__INTERACCI__ID_LE__1BC821DD">
+    <End Role="LEADS" Type="Self.LEADS" Multiplicity="1" />
+    <End Role="INTERACCIONES" Type="Self.INTERACCIONES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LEADS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="INTERACCIONES">
+        <PropertyRef Name="ID_LEAD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__USUARIO_R__ID_RO__151B244E">
+    <End Role="ROLES" Type="Self.ROLES" Multiplicity="1" />
+    <End Role="USUARIO_ROLES" Type="Self.USUARIO_ROLES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ROLES">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="USUARIO_ROLES">
+        <PropertyRef Name="ID_ROL" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__USUARIO_R__ID_US__14270015">
+    <End Role="USUARIOS" Type="Self.USUARIOS" Multiplicity="1" />
+    <End Role="USUARIO_ROLES" Type="Self.USUARIO_ROLES" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USUARIOS">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="USUARIO_ROLES">
+        <PropertyRef Name="ID_USUARIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="CalificarLead" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="lead_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <EntityContainer Name="BD_LMSModelStoreContainer">
+    <EntitySet Name="ASIGNACIONES_LEAD" EntityType="Self.ASIGNACIONES_LEAD" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AUDITORIA_LEADS" EntityType="Self.AUDITORIA_LEADS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CITAS" EntityType="Self.CITAS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="INTERACCIONES" EntityType="Self.INTERACCIONES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LEADS" EntityType="Self.LEADS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="REPORTES" EntityType="Self.REPORTES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ROLES" EntityType="Self.ROLES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USUARIO_ROLES" EntityType="Self.USUARIO_ROLES" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USUARIOS" EntityType="Self.USUARIOS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="database_firewall_rules" EntityType="Self.database_firewall_rules" store:Type="Views" store:Schema="sys">
+      <DefiningQuery>SELECT 
+    [database_firewall_rules].[id] AS [id], 
+    [database_firewall_rules].[name] AS [name], 
+    [database_firewall_rules].[start_ip_address] AS [start_ip_address], 
+    [database_firewall_rules].[end_ip_address] AS [end_ip_address], 
+    [database_firewall_rules].[create_date] AS [create_date], 
+    [database_firewall_rules].[modify_date] AS [modify_date]
+    FROM [sys].[database_firewall_rules] AS [database_firewall_rules]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__ASIGNACIO__ID_LE__17F790F9" Association="Self.FK__ASIGNACIO__ID_LE__17F790F9">
+      <End Role="LEADS" EntitySet="LEADS" />
+      <End Role="ASIGNACIONES_LEAD" EntitySet="ASIGNACIONES_LEAD" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ASIGNACIO__ID_US__18EBB532" Association="Self.FK__ASIGNACIO__ID_US__18EBB532">
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+      <End Role="ASIGNACIONES_LEAD" EntitySet="ASIGNACIONES_LEAD" />
+    </AssociationSet>
+    <AssociationSet Name="FK__AUDITORIA__ID_LE__245D67DE" Association="Self.FK__AUDITORIA__ID_LE__245D67DE">
+      <End Role="LEADS" EntitySet="LEADS" />
+      <End Role="AUDITORIA_LEADS" EntitySet="AUDITORIA_LEADS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__AUDITORIA__USUAR__25518C17" Association="Self.FK__AUDITORIA__USUAR__25518C17">
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+      <End Role="AUDITORIA_LEADS" EntitySet="AUDITORIA_LEADS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CITAS__ID_LEAD__1EA48E88" Association="Self.FK__CITAS__ID_LEAD__1EA48E88">
+      <End Role="LEADS" EntitySet="LEADS" />
+      <End Role="CITAS" EntitySet="CITAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__CITAS__ID_USUARI__1F98B2C1" Association="Self.FK__CITAS__ID_USUARI__1F98B2C1">
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+      <End Role="CITAS" EntitySet="CITAS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__INTERACCI__ID_LE__1BC821DD" Association="Self.FK__INTERACCI__ID_LE__1BC821DD">
+      <End Role="LEADS" EntitySet="LEADS" />
+      <End Role="INTERACCIONES" EntitySet="INTERACCIONES" />
+    </AssociationSet>
+    <AssociationSet Name="FK__USUARIO_R__ID_RO__151B244E" Association="Self.FK__USUARIO_R__ID_RO__151B244E">
+      <End Role="ROLES" EntitySet="ROLES" />
+      <End Role="USUARIO_ROLES" EntitySet="USUARIO_ROLES" />
+    </AssociationSet>
+    <AssociationSet Name="FK__USUARIO_R__ID_US__14270015" Association="Self.FK__USUARIO_R__ID_US__14270015">
+      <End Role="USUARIOS" EntitySet="USUARIOS" />
+      <End Role="USUARIO_ROLES" EntitySet="USUARIO_ROLES" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

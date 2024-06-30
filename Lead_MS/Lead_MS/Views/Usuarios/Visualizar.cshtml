@@ -1,0 +1,38 @@
+﻿@model Lead_MS.Models.USUARIOS
+@{
+    ViewBag.Title = "Visualizar Usuario";
+}
+
+<div class="text-center">
+    <h2>Visualizar Usuario</h2>
+</div>
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active"><a href="~/Usuarios/Index">Usuarios</a></li>
+        <li class="breadcrumb-item active" aria-current="page">@Model.NOMBRE_USUARIO</li>
+    </ol>
+</nav>
+
+<div class="card">
+    <div class="card-header">
+        Información del Usuario
+    </div>
+    <div class="card-body">
+        <dl class="list-group">
+            <dt>ID</dt>
+            <dd>@Model.ID</dd>
+            <dt>Nombre de Usuario</dt>
+            <dd>@Model.NOMBRE_USUARIO</dd>
+            <dt>Email</dt>
+            <dd>@Model.EMAIL</dd>
+            <dt>Teléfono</dt>
+            <dd>@Model.TELEFONO</dd>
+            <dt>Descripción</dt>
+            <dd>@Model.DESCRIPCION</dd>
+            <dt>Rol</dt>
+            <dd>@(Model.ROLES != null ? Model.ROLES.NOMBRE : "Sin Rol")</dd>
+
+        </dl>
+    </div>
+</div>
