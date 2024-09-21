@@ -1,0 +1,126 @@
+﻿@model Lead_MS.Models.USUARIOS
+
+@{
+    ViewBag.Title = "Registro - Brand";
+}
+
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="~/assets/fonts/fontawesome-all.min.css">
+</head>
+
+<body class="bg-gradient-primary">
+    <div class="container">
+        <div class="card shadow-lg o-hidden border-0 my-5">
+            <div class="card-body p-0">
+                <div class="row">
+                    <div class="col-lg-5 d-none d-lg-flex">
+                        <div class="flex-grow-1 bg-register-image" style="background-image: url('@Url.Content("~/assets/img/dogs/image2.jpeg")');"></div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h4 class="text-dark mb-4">Crear una Cuenta!</h4>
+                            </div>
+                            @using (Html.BeginForm("Register", "Login", FormMethod.Post, new { @class = "user", id = "registerForm" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                <div class="row mb-3">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        @Html.TextBoxFor(m => m.NOMBRE_USUARIO, new { @class = "form-control form-control-user", placeholder = "Nombre de Usuario" })
+                                        @Html.ValidationMessageFor(m => m.NOMBRE_USUARIO, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="col-sm-6">
+                                        @Html.TextBoxFor(m => m.EMAIL, new { @class = "form-control form-control-user", placeholder = "Email" })
+                                        @Html.ValidationMessageFor(m => m.EMAIL, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        @Html.PasswordFor(m => m.HASH_CONTRASEÑA, new { @class = "form-control form-control-user", placeholder = "Contraseña" })
+                                        @Html.ValidationMessageFor(m => m.HASH_CONTRASEÑA, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="col-sm-6">
+                                        @Html.Password("ConfirmPassword", null, new { @class = "form-control form-control-user", placeholder = "Confirmar Contraseña" })
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary d-block btn-user w-100">Registrar Cuenta</button>
+                                <hr>
+                            }
+                            <div class="text-center">
+                                <a class="small" href="@Url.Action("Index", "Login")">¿Ya tienes una cuenta? Inicia sesión!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Confirmación -->
+    <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmationModalLabel">Resultado del Registro</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalMessage">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/bs-init.js"></script>
+    <script src="~/assets/js/theme.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#registerForm').submit(function (e) {
+                e.preventDefault();
+                $.ajax({
+                    url: this.action,
+                    type: this.method,
+                    data: $(this).serialize(),
+                    success: function (result) {
+                        if (result.success) {
+                            $('#modalMessage').html('<div class="alert alert-success">' + result.message + '</div>');
+                            $('#confirmationModal').modal('show');
+                            // Redirigir al login después de 3 segundos
+                            setTimeout(function () {
+                                window.location.href = '@Url.Action("Index", "Login")';
+                            }, 3000);
+                        } else {
+                            $('#modalMessage').html('<div class="alert alert-danger">' + result.message + '</div>');
+                            if (result.errors) {
+                                var errorList = '<ul>';
+                                $.each(result.errors, function (index, error) {
+                                    errorList += '<li>' + error + '</li>';
+                                });
+                                errorList += '</ul>';
+                                $('#modalMessage').append(errorList);
+                            }
+                            $('#confirmationModal').modal('show');
+                        }
+                    },
+                    error: function () {
+                        $('#modalMessage').html('<div class="alert alert-danger">Ocurrió un error al procesar la solicitud.</div>');
+                        $('#confirmationModal').modal('show');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

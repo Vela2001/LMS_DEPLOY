@@ -9,7 +9,7 @@ using Lead_MS.Models;
 
 namespace Lead_MS.Controllers
 {
-    [Autenticado]
+    //[Autenticado]
     public class LeadsController : Controller
     {
         private LEADS objLead = new LEADS();

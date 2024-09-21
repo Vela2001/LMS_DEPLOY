@@ -13,7 +13,6 @@ namespace Lead_MS.Controllers
         private USUARIOS usuario = new USUARIOS();
 
         // GET: Login
-        [NoLogin]
         public ActionResult Index()
         {
             return View();
@@ -34,6 +33,46 @@ namespace Lead_MS.Controllers
         {
             SessionHelper.DestroyUserSession();
             return Redirect("~/Login");
+        }
+
+        [HttpGet]
+        public ActionResult Registro()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Register(USUARIOS model)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    using (var db = new ModeloLMS())
+                    {
+                        if (db.USUARIOS.Any(u => u.NOMBRE_USUARIO == model.NOMBRE_USUARIO || u.EMAIL == model.EMAIL))
+                        {
+                            return Json(new { success = false, message = "El nombre de usuario o email ya está en uso." });
+                        }
+
+                        model.HASH_CONTRASEÑA = HashHelper.MD5(model.HASH_CONTRASEÑA);
+                        model.ROL_ID = 2; // Asumiendo que 2 es el ID para usuarios normales
+
+                        db.USUARIOS.Add(model);
+                        db.SaveChanges();
+
+                        return Json(new { success = true, message = "Registro exitoso." });
+                    }
+                }
+                catch (Exception ex)
+                {
+                    return Json(new { success = false, message = "Ocurrió un error al registrar el usuario: " + ex.Message });
+                }
+            }
+
+            var errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage);
+            return Json(new { success = false, message = "Por favor, corrija los errores en el formulario.", errors = errors });
         }
     }
 }

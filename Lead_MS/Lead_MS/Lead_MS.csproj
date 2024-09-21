@@ -248,6 +248,7 @@
     <Content Include="Views\Roles\Index.cshtml" />
     <Content Include="Views\Roles\AgregarEditar.cshtml" />
     <Content Include="Views\Roles\Visualizar.cshtml" />
+    <Content Include="Views\Login\Registro.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

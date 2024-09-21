@@ -9,7 +9,7 @@ using System.Web.Mvc;
 
 namespace Lead_MS.Controllers
 {
-    [Autenticado]
+    //[Autenticado]
     public class RolesController : Controller
     {
         private ROLES objRol = new ROLES();

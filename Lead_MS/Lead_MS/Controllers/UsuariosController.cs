@@ -8,7 +8,7 @@ using System.Web.Mvc;
 
 namespace Lead_MS.Controllers
 {
-    [Autenticado]
+    //[Autenticado]
     public class UsuariosController : Controller
     {
         private USUARIOS objUsuario = new USUARIOS();
